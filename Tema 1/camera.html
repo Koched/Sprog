@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang=”en”>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Anton|Indie+Flower|Roboto" rel="stylesheet">
+
+<!-- Name of your awesome camera app -->
+<title>Camera App</title>
+<!-- Link to your main style sheet-->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Camera -->
+<main id="camera">
+
+  <!-- Camera sensor -->
+     <canvas id="camera--sensor"></canvas>
+  <!-- Camera view -->
+      <video id="camera--view" autoplay playsinline></video>
+
+  <!-- Camera output -->
+      <img src="//:0" alt="" id="camera--output">
+
+  <!-- Camera trigger -->
+      <button id="camera--trigger">Tag billede</button>
+</main>
+
+<!-- Navigations bar -->
+<ul class="mobile-app-icon-bar">
+  <li>
+    <a href="index.html">
+      <i class="fa fa-home" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a href="notes.html">
+      <i class="fa fa-sticky-note" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a href="camera.html">
+      <i class="fa fa-camera" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <a href="galleri.html">
+      <i class="fa fa-picture-o" aria-hidden="true"></i>
+    </a>
+  </li>
+  <li>
+    <i class="fa fa-cog" aria-hidden="true"></i>
+  </li>
+</ul>
+<!-- Reference to your JavaScript file -->
+<script src="js/camera.js"></script>
+</body>
+</html>
