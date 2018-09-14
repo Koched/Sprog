@@ -18,11 +18,23 @@ section{
     padding: 0px 5px 0px 5px;
 }
 
+/** CSS til galleri.html **/
 img{
   float: left;
-  width: 50vw;
-  height: 50vh;
+  height: 220px;
 }
+
+.cover {
+  width: 50vw;
+  object-fit: cover;
+}
+
+.galleri {
+  height: 100vh;
+  display: block;
+  padding-bottom: 80px;
+}
+
 
 
 /** INDEX.html css **/
